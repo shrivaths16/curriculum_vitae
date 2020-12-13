@@ -3,23 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shrivaths's Website</title>
+        <title>Shrivaths's CV</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.ico">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <table cellspacing = "20px">
+        <table class="table-main"cellspacing = "20px">
             <tr>
-                <td><img src="Images/shrivaths.jpg" alt="Shrivaths's DP"></td>
+                <td><img class="profile-pic" src="Images/shrivaths.jpg" alt="Shrivaths's DP"></td>
                 <td><h1>Shrivaths Shyam</h1>
-                    <p><em>Aspiring software technologist currently in final year undergraduation</em>.</p></td>
+                    <p>I am an undergraduate in B.E electronics and communication from SSN College of Engineering, Anna University currently working as 
+                        a Programmer Analyst Trainee at Cognizant.</p></td>
             </tr>
+            <tr><td colspan="2"><a class="contact" href="contact.html"><strong>Contact</strong></a></td></tr>
         </table>        
         <hr>
         <h3>Education</h3>
-        <table cellspacing="10px">
+        <table class="table-custom" border="1" cellspacing="10px">
+            <thead>
             <tr>
                 <th>Year of Completion</th>
                 <th>School/College</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>2020</td>
                 <td>Bachelor of Engineering(Electronics and Communication) at SSN College of Engineering, Anna University, Chennai</td>
@@ -28,14 +43,52 @@
                 <td>2016</td>
                 <td>High School at Bhavan's Rajaji Vidyashram, Chennai</td>
             </tr>
+            </tbody>
         </table>
-        <hr>
-        <h3>Activities</h3>
-        <table cellspacing="10px">
+        <!-- <hr> -->
+        <h3>Projects</h3>
+        <table class="table-custom" border="1" cellspacing="10px">
+            <thead>
             <tr>
                 <th>Dates</th>
                 <th>Activity</th>
             </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>10/2018 - 03/2020</td>
+                <td>Noise Transformation to Electricity using Electromagnetic Induction</td>
+            </tr>
+            <tr>
+                <td>09/2019 - 03/2020</td>
+                <td>Quality Enhancement by removing haze from Underwater Images</td>
+            </tr>
+            </tbody>
+        </table>
+        <h3>Hobbies</h3>
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Tennis">Tennis</a>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Cricket">Cricket</a>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Football">Football</a>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Anime">Anime</a>
+            </li>
+        </ul>
+        <h3>Activities</h3>
+        <table class="table-custom" border="1" cellspacing="10px">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Activity</th>
+                </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>09/2019</td>
                 <td>Event Head: Organized a coding event at Invente which is a national level technical symposium in college</td>
@@ -44,8 +97,9 @@
                 <td>07/2018 - 03/2020</td>
                 <td>SSN Lakshya Member: Organized and volunteered in events within college</td>
             </tr>
+            </tbody>
         </table>
-        <hr>
+        <!-- <hr> -->
         <h3>Skills</h3>
         <ul>
             <li>C/C++ Programming</li>
@@ -55,9 +109,9 @@
             <li>HTML</li>
             <li>Cascading Style Sheets</li>
             <li>JavaSript</li>
+            <li>SQL</li>
         </ul>
         <hr>
-        <a href="contact.html"><em><strong>Contact</strong></em></a>
-        <a href="hobbies.html"><em><strong>Hobbies</strong></em></a>
+        <!-- <a href="contact.html"><em><strong>Contact</strong></em></a> -->
     </body>
 </html>
