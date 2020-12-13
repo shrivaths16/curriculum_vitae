@@ -1,0 +1,60 @@
+/****************** TAG SELECTORS *******************/
+body
+{
+    background-color: #f1f3f8;
+    font-size: 1.15em;
+    font-family: Merriweather;
+}
+
+h1
+{
+    color: #214252;
+}
+
+h3
+{
+    color: #214252;
+}
+
+hr
+{
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: dimgrey;
+    width: 5%;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #214252;   
+}
+
+a:hover
+{
+    color: #79a3b1;
+}
+
+/* Class Selectors */
+
+.profile-pic
+{
+    border-radius: 20%;
+}
+
+.table-custom
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-main
+{
+    margin:auto;
+}
+
+.contact
+{
+    font-size: 1.3rem;
+}
+
