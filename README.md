@@ -1,3 +1,3 @@
 # cv
 
-https://shrivaths16.github.io/cv/
+https://shrivaths16.github.io/curriculum_vitae/
